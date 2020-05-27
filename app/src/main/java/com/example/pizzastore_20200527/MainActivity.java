@@ -37,6 +37,9 @@ public class MainActivity extends BaseActivity {
 
         addPizzaStores();
 
+        psa = new PizzaStoreAdapter(mContext, R.layout.pizzastore_list_item, pizzaStoreList);
+        binding.pizzaStoreListView.setAdapter(psa);
+
     }
 
     void addPizzaStores() {

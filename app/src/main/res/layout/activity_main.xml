@@ -9,12 +9,6 @@
         android:padding="10dp"
         tools:context=".MainActivity">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="PizzaStore"
-            android:textSize="26sp"/>
-
         <ListView
             android:id="@+id/pizzaStoreListView"
             android:layout_width="match_parent"
